@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
 import './App.css';
+import desktopImage from './JapanAgain.jpg';
+import mobileImage from './fengReiMen.jpg';
 
-function App() {
+const App = () => {
+  
+  const imageUrl = useWindowWidth() >= 650 ? desktopImage : mobileImage;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
+      <div className="App-content">
+        <h1 style={{color:`white`}}>Japan</h1>
+        <p style={{color:`white`}}>It was like a dream.</p>
+      </div>
     </div>
   );
-}
+};
+
+const useWindowWidth = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const handleWindowResize = () => {
+    setWindowWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowResize);
+    return () => window.removeEventListener('resize', handleWindowResize);
+  }, []);
+
+  return windowWidth;
+};
 
 export default App;
