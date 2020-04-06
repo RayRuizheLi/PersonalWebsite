@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/rayruizheli/rayruizheli.github.io/static/css/main.7674861d.chunk.css",
-    "main.js": "/rayruizheli/rayruizheli.github.io/static/js/main.c4a2920b.chunk.js",
-    "main.js.map": "/rayruizheli/rayruizheli.github.io/static/js/main.c4a2920b.chunk.js.map",
-    "runtime-main.js": "/rayruizheli/rayruizheli.github.io/static/js/runtime-main.1cba2763.js",
-    "runtime-main.js.map": "/rayruizheli/rayruizheli.github.io/static/js/runtime-main.1cba2763.js.map",
-    "static/js/2.da380fa8.chunk.js": "/rayruizheli/rayruizheli.github.io/static/js/2.da380fa8.chunk.js",
-    "static/js/2.da380fa8.chunk.js.map": "/rayruizheli/rayruizheli.github.io/static/js/2.da380fa8.chunk.js.map",
-    "index.html": "/rayruizheli/rayruizheli.github.io/index.html",
-    "precache-manifest.e66542b3f82beedaa79e76711a6f6697.js": "/rayruizheli/rayruizheli.github.io/precache-manifest.e66542b3f82beedaa79e76711a6f6697.js",
-    "service-worker.js": "/rayruizheli/rayruizheli.github.io/service-worker.js",
-    "static/css/main.7674861d.chunk.css.map": "/rayruizheli/rayruizheli.github.io/static/css/main.7674861d.chunk.css.map",
-    "static/js/2.da380fa8.chunk.js.LICENSE.txt": "/rayruizheli/rayruizheli.github.io/static/js/2.da380fa8.chunk.js.LICENSE.txt",
-    "static/media/JapanAgain.jpg": "/rayruizheli/rayruizheli.github.io/static/media/JapanAgain.dc35be1f.jpg",
-    "static/media/fengReiMen.jpg": "/rayruizheli/rayruizheli.github.io/static/media/fengReiMen.adfa5e15.jpg"
+    "main.css": "/static/css/main.7674861d.chunk.css",
+    "main.js": "/static/js/main.17fa3ebe.chunk.js",
+    "main.js.map": "/static/js/main.17fa3ebe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36a5e305.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36a5e305.js.map",
+    "static/js/2.da380fa8.chunk.js": "/static/js/2.da380fa8.chunk.js",
+    "static/js/2.da380fa8.chunk.js.map": "/static/js/2.da380fa8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.28c9f60e13a2828adc63b2aa5120ae4a.js": "/precache-manifest.28c9f60e13a2828adc63b2aa5120ae4a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7674861d.chunk.css.map": "/static/css/main.7674861d.chunk.css.map",
+    "static/js/2.da380fa8.chunk.js.LICENSE.txt": "/static/js/2.da380fa8.chunk.js.LICENSE.txt",
+    "static/media/JapanAgain.jpg": "/static/media/JapanAgain.dc35be1f.jpg",
+    "static/media/fengReiMen.jpg": "/static/media/fengReiMen.adfa5e15.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cba2763.js",
+    "static/js/runtime-main.36a5e305.js",
     "static/js/2.da380fa8.chunk.js",
     "static/css/main.7674861d.chunk.css",
-    "static/js/main.c4a2920b.chunk.js"
+    "static/js/main.17fa3ebe.chunk.js"
   ]
 }
